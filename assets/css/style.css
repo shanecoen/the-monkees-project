@@ -31,7 +31,7 @@ a:link {
     border: 1px solid #800000;}
 
 .navbar-dark .navbar-toggler-icon {
-    background-image: url("/assets/images/hamburger-icon-maroon.png");}
+    background-image: url("/assets/images/hamburgericonmaroon.png");}
 
 .navbar-dark .navbar-toggler:hover {
     background-color: #ffffff;
@@ -67,7 +67,7 @@ a:link {
 /*------------------------------------------------jumbotron*/
 
 .jumbotron {
-    background-image: url("/assets/images/monkees-opacity.png");
+    background-image: url("/assets/images/monkeesopacity.png");
     background-size: cover;
     background-position:center center;
     background-repeat: no-repeat;
@@ -111,7 +111,7 @@ a:link {
 /*------------------------------------------------music*/
 
 .music-body {
-    background-image: url("/assets/images/The_Monkees_1966_2.png");
+    background-image: url("/assets/images/TheMonkees19662.png");
     background-size: cover;
     background-position:center center;
     background-repeat: no-repeat;
@@ -122,7 +122,7 @@ a:link {
 }
 
 .jumbotron-music {
-    background-image: url("/assets/images/the-monkees-music-header2.png");
+    background-image: url("/assets/images/themonkeesmusicheader2.png");
     background-size: cover;
     background-position:center center;
     background-repeat: no-repeat;

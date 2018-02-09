@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a:link {
+    text-decoration: none;}
+
+/*------------------------------------------------navbar*/
+
+.navbar-edit {
+    min-height: 80px;
+    background-color: #b2b2b2;
+    opacity: 0.8;
+    margin: 0;
+    border-bottom: 1px solid #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #800000;}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffffff;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;}
+
+.navbar-dark .navbar-toggler {
+    border: 1px solid #800000;}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("/assets/images/hamburger-icon-maroon.png");}
+
+.navbar-dark .navbar-toggler:hover {
+    background-color: #ffffff;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;}
+
+.monkees-header-logo {
+    height: 60px;}
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;}
+
+.headings {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    text-align: left;
+    display: inline-block;
+    color: #ffffff;}
+
+/*------------------------------------------------jumbotron*/
+
+.jumbotron {
+    background-image: url("/assets/images/monkees-opacity.png");
+    background-size: cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    padding-top: 30px;
+    margin: 0;
+    padding-right: 20px;}
+
+.jumbotron-logo {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 50px;
+    margin-left: 10px;}
+    
+.call-out-button-edit1 {
+    background-color: #800000;
+    color: #ffffff;
+    border: 1px solid #800000;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top:20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.call-out-button-edit1:hover {
+    background-color: #ffffff;
+    color: #800000;
+    border: 1px solid #800000;
+     transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;}
+    
+/*------------------------------------------------music*/
+
+.music-body {
+    background-image: url("/assets/images/The_Monkees_1966_2.png");
+    background-size: cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.jumbotron-music {
+    background-image: url("/assets/images/the-monkees-music-header2.png");
+    background-size: cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    padding-top: 30px;
+    margin: 0;
+    padding-right: 20px;
+    border-bottom: 1px solid #ffffff;}
+
+.jumbotron-logo-music {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-bottom: 30px;}
+
+.sample-music-div {
+    margin: 0 auto;
+    padding-bottom: 30px;}
+ 
+.monkees-album-cover {
+    float:left;}
+    
+.monkees-album-cover-1 {
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    max-width: 90%;}
+
+.section-header-text-1 {
+    font-family: "Roboto", sans-serif;}
+
+.music-button-edit {
+    display: block;
+    color: #800000;
+    border: 1px solid #800000;
+    background-color: #ffffff;
+    margin-left: 10px;
+    max-height: 40px;}
+
+.music-button-edit:hover {
+    background-color: #800000;
+    color: #ffffff;
+    border: 1px solid #800000;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;}
+    
+.music-button-edit2 {
+    display: block;
+    color: #800000;
+    border: 1px solid #800000;
+    background-color: #ffffff;
+    margin: 0 auto;
+    max-height: 40px;}
+
+.music-button-edit2:hover {
+    background-color: #800000;
+    color: #ffffff;
+    border: 1px solid #800000;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;}
+
+.music-button-edit3 {
+    background-color: #800000;
+    color: #ffffff;
+    border: 1px solid #800000;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;}
+
+.music-button-edit3:hover {
+    background-color: #ffffff;
+    color: #800000;
+    border: 1px solid #800000;
+     transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;}
+
+.section-albums {
+    border-top: 1px solid #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;}
+
+.album-text-edit {
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: 500;}
+
+.section-booking {
+    border-top: 1px solid #ffffff;
+    padding-bottom: 40px;
+    font-family: "Roboto", sans-serif;}
+
+.card-edit {
+    background-color: transparent;
+    border: none;}
+
+.best-of-album-songs {
+    background-color: transparent;
+    padding-bottom: 10px;
+    padding-top: 10px;}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;}
+
+.h5-edit {
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: 500;}
+    
+audio {
+    background:transparent;
+    max-width: 100px;
+    max-height: 25px;}
+
+/*------------------------------------------------footer*/
+
+.footer-one {
+    background-color: #b2b2b2;
+    margin: 0;
+    padding: 20px;
+    border-top: 1px solid #ffffff;
+}
+
+.footer-logo {
+    display: inline-block;
+    text-align: center;}
+
+.monkees-footer-logo {
+    max-height: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;}
+
+.footer-social-icons {
+    display: inline-block;
+    text-align: center;
+    margin-top: 15px;}
+
+.social-icons-footer {
+    margin-left: 15px;
+    margin-right: 10px;
+    color: #ffffff;
+    font-size: 40px;}
+
+.social-icons-footer:hover {
+    color: #800000;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;}
+
+.footer-signup-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.footer-button-edit {
+    display: block;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background-color: #b2b2b2;
+    margin-left: 5px;}
+
+.footer-button-edit:hover {
+    background-color: #800000;
+    border: 1px solid #800000;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;}
+
+.footer-input-edit {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    max-width: 400px;}
+
+/*------------------------------------------------media-queries*/
+
+@media screen and (min-width: 0px) and (max-width: 992px) {
+  .headings {
+    display: block;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 20px;}
+
+    .navbar-collapse {
+    background-color: #b2b2b2;
+    opacity: 0.8;
+    }
+}
+
+
+
+
+
+
+
+
+

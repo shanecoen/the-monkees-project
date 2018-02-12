@@ -376,8 +376,7 @@ audio {
 
 .contact-social-media {
     background-color: transparent;
-    padding-top: 20px;
-}
+    padding-top: 20px;}
 
 .contact-logo {
     height: 55px;
@@ -516,6 +515,16 @@ audio {
     opacity: 0.8;
     }
 }
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    .contact-social-media {
+        padding-bottom: 30px;}
+    
+    .contact-newsletter {
+        border-bottom: none;
+        padding-bottom: 0;}
+}
+    
 
 
 

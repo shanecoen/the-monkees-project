@@ -256,6 +256,184 @@ audio {
     max-width: 100px;
     max-height: 25px;}
 
+/*------------------------------------------------contact-page*/
+
+.contact-body {
+    background-image: url("/assets/images/monkeesmusicyellow2.png");
+    background-size: cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;}
+
+.jumbotron-contact {
+    background-color: transparent;
+    margin: 0;
+    padding-top: 30px;}
+
+.jumbotron-logo-contact {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+    margin-bottom: 50px;}
+    
+.contact-page-wrapper {
+    background-color: transparent;
+    border-radius: 20px;
+    width: 100%;
+    margin: 0 auto;}
+
+.contact-main-heading {
+    margin-top: 100px;
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #ffffff;}
+
+.contact-form {
+    background-color: transparent;}
+
+.contact-newsletter {
+    background-color: transparent;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.h3-contact {
+    text-align: left;
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;}
+
+.contact-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    margin: 0;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    text-align: justify;}
+
+.contact-text2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    margin: 0;
+    text-align: left;}
+
+.list-contact-edit {
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+    max-width: 400px;
+}
+
+
+.contact-input-edit {
+    margin: 0 auto;
+    margin-bottom: 20px;}
+
+.subscribe-button-edit {
+    display: block;
+    color: #ffffff;
+    border: 1px solid #800000;
+    background-color: #800000;
+    margin-left: 5px;}
+
+.subscribe-button-edit:hover {
+    background-color: #ffffff;
+    color: #800000;
+    border: 1px solid #800000;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;}
+
+.subscribe-button-edit2 {
+    display: block;
+    color: #ffffff;
+    border: 1px solid #800000;
+    background-color: #800000;
+    margin-bottom: 30px;}
+
+.subscribe-button-edit2:hover {
+    background-color: #ffffff;
+    color: #800000;
+    border: 1px solid #800000;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;}
+
+.contact-social-media {
+    background-color: transparent;
+    padding-top: 20px;
+}
+
+.contact-logo {
+    height: 55px;
+    display: block;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.contact-logo2 {
+    max-height: 55px;
+    display: block;
+    margin-top: 0;}
+    
+.social-media-div {
+    margin-top: 0; 
+    margin-left: 0px ;
+    min-width: 80%;
+    background-color: transparent;}
+
+.contact-logo-wrapper {
+    margin-bottom: 40px;}
+    
+.contact-event-form {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;}
+    
+.form-control {
+    margin-bottom: 20px;
+    margin-left: 0px;
+    max-width: 400px;}
+
+.subscribe-input-edit {
+    display: block;
+    margin-left: 0;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    max-width: 300px;}
+
+.social-icons-contact {
+    margin-top: 0;
+    margin-left: 10px;
+    color: #800000;
+    font-size: 40px;}
+
+.social-icons-contact:hover {
+    color: #ffffff;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;}
+
+
+
+
+
+
 /*------------------------------------------------footer*/
 
 .footer-one {

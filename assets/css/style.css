@@ -31,7 +31,8 @@ a:link {
     border: 1px solid #800000;}
 
 .navbar-dark .navbar-toggler-icon {
-    background-image: url("/assets/images/hamburgericonmaroon.png");}
+    background-image: url("/assets/images/hamburger-icon-maroon.png");
+}
 
 .navbar-dark .navbar-toggler:hover {
     background-color: #ffffff;
@@ -64,10 +65,10 @@ a:link {
     display: inline-block;
     color: #ffffff;}
 
-/*------------------------------------------------jumbotron*/
+/*------------------------------------------------home-page*/
 
 .jumbotron {
-    background-image: url("/assets/images/monkeesopacity.png");
+    background-image: url("/assets/images/monkees-opacity.png");
     background-size: cover;
     background-position:center center;
     background-repeat: no-repeat;
@@ -111,7 +112,7 @@ a:link {
 /*------------------------------------------------music*/
 
 .music-body {
-    background-image: url("/assets/images/TheMonkees19662.png");
+    background-image: url("/assets/images/The-Monkees-19662.png");
     background-size: cover;
     background-position:center center;
     background-repeat: no-repeat;
@@ -122,7 +123,7 @@ a:link {
 }
 
 .jumbotron-music {
-    background-image: url("/assets/images/themonkeesmusicheader2.png");
+    background-image: url("/assets/images/the-monkees-music-header2.png");
     background-size: cover;
     background-position:center center;
     background-repeat: no-repeat;
@@ -259,7 +260,7 @@ audio {
 /*------------------------------------------------contact-page*/
 
 .contact-body {
-    background-image: url("/assets/images/monkeesmusicyellow2.png");
+    background-image: url("/assets/images/monkees-music-yellow2.png");
     background-size: cover;
     background-position:center center;
     background-repeat: no-repeat;
@@ -524,13 +525,3 @@ audio {
         border-bottom: none;
         padding-bottom: 0;}
 }
-    
-
-
-
-
-
-
-
-
-

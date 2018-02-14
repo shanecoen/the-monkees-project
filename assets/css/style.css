@@ -5,7 +5,8 @@ body {
 }
 
 a:link {
-    text-decoration: none;}
+    text-decoration: none;
+}
 
 /*------------------------------------------------navbar*/
 
@@ -18,17 +19,20 @@ a:link {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #800000;}
+    color: #800000;
+}
 
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #ffffff;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;}
+    -o-transition: all 0.35s ease-in-out;
+}
 
 .navbar-dark .navbar-toggler {
-    border: 1px solid #800000;}
+    border: 1px solid #800000;
+}
 
 .navbar-dark .navbar-toggler-icon {
     background-image: url("/assets/images/hamburger-icon-maroon.png");
@@ -39,20 +43,24 @@ a:link {
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;}
+    -o-transition: all 0.35s ease-in-out;
+}
 
 .monkees-header-logo {
-    height: 60px;}
+    height: 60px;
+}
 
 .navbar-nav {
     float:none;
     margin:0 auto;
     display: block;
-    text-align: center;}
+    text-align: center;
+}
 
 .navbar-nav > li {
     display: inline-block;
-    float:none;}
+    float:none;
+}
 
 .headings {
     font-family: "Roboto", sans-serif;
@@ -63,11 +71,12 @@ a:link {
     text-transform: uppercase;
     text-align: left;
     display: inline-block;
-    color: #ffffff;}
+    color: #ffffff;
+}
 
 /*------------------------------------------------home-page*/
 
-.jumbotron {
+.jumbotron-home {
     background-image: url("/assets/images/monkees-opacity.png");
     background-size: cover;
     background-position:center center;
@@ -78,13 +87,15 @@ a:link {
     -o-background-size: cover;
     padding-top: 30px;
     margin: 0;
-    padding-right: 20px;}
+    padding-right: 20px;
+}
 
 .jumbotron-logo {
     width: 100%;
     max-width: 400px;
     margin-top: 50px;
-    margin-left: 10px;}
+    margin-left: 10px;
+}
     
 .call-out-button-edit1 {
     background-color: #800000;
@@ -107,7 +118,8 @@ a:link {
      transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;}
+    -o-transition: all 0.35s ease-in-out;
+}
     
 /*------------------------------------------------music*/
 
@@ -134,31 +146,38 @@ a:link {
     padding-top: 30px;
     margin: 0;
     padding-right: 20px;
-    border-bottom: 1px solid #ffffff;}
+    border-bottom: 1px solid #ffffff;
+}
 
 .jumbotron-logo-music {
     width: 100%;
     max-width: 400px;
     margin-top: 100px;
     margin-left: 20px;
-    margin-bottom: 30px;}
+    margin-bottom: 30px;
+}
 
 .sample-music-div {
     margin: 0 auto;
-    padding-bottom: 30px;}
+    padding-bottom: 30px;
+}
  
 .monkees-album-cover {
-    float:left;}
+    float:left;
+}
     
 .monkees-album-cover-1 {
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 30px;
     margin-left: 15px;
-    max-width: 90%;}
+    max-width: 90%;
+}
 
 .section-header-text-1 {
-    font-family: "Roboto", sans-serif;}
+    font-family: "Exo", sans-serif;
+    text-transform: uppercase;
+}
 
 .music-button-edit {
     display: block;
@@ -166,7 +185,8 @@ a:link {
     border: 1px solid #800000;
     background-color: #ffffff;
     margin-left: 10px;
-    max-height: 40px;}
+    max-height: 40px;
+}
 
 .music-button-edit:hover {
     background-color: #800000;
@@ -175,7 +195,8 @@ a:link {
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;}
+    -o-transition: all 0.35s ease-in-out;
+}
     
 .music-button-edit2 {
     display: block;
@@ -183,7 +204,8 @@ a:link {
     border: 1px solid #800000;
     background-color: #ffffff;
     margin: 0 auto;
-    max-height: 40px;}
+    max-height: 40px;
+}
 
 .music-button-edit2:hover {
     background-color: #800000;
@@ -192,7 +214,8 @@ a:link {
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;}
+    -o-transition: all 0.35s ease-in-out;
+}
 
 .music-button-edit3 {
     background-color: #800000;
@@ -205,7 +228,8 @@ a:link {
     text-transform: uppercase;
     display: block;
     margin: 0 auto;
-    margin-bottom: 10px;}
+    margin-bottom: 10px;
+}
 
 .music-button-edit3:hover {
     background-color: #ffffff;
@@ -214,94 +238,115 @@ a:link {
      transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;}
+    -o-transition: all 0.35s ease-in-out;
+}
 
 .section-albums {
     border-top: 1px solid #ffffff;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 30px;}
+    padding-bottom: 30px;
+}
 
 .album-text-edit {
     font-family: "Roboto", sans-serif;
     font-size: 22px;
-    font-weight: 500;}
+    font-weight: 500;
+}
 
 .section-booking {
     border-top: 1px solid #ffffff;
     padding-bottom: 40px;
-    font-family: "Roboto", sans-serif;}
+    font-family: "Roboto", sans-serif;
+}
 
 .card-edit {
     background-color: transparent;
-    border: none;}
+    border: none;
+}
 
 .best-of-album-songs {
     background-color: transparent;
     padding-bottom: 10px;
-    padding-top: 10px;}
+    padding-top: 10px;
+}
 
 .list-group-item {
     background-color: transparent;
     border: none;
     font-family: "Roboto", sans-serif;
-    font-size: 18px;}
+    font-size: 18px;
+}
 
 .h5-edit {
     font-family: "Roboto", sans-serif;
     font-size: 22px;
-    font-weight: 500;}
+    font-weight: 500;
+}
     
 audio {
     background:transparent;
     max-width: 100px;
-    max-height: 25px;}
+    max-height: 25px;
+}
 
 /*------------------------------------------------contact-page*/
 
 .contact-body {
-    background-image: url("/assets/images/monkees-music-yellow2.png");
+    background-image: url("/assets/images/monkees-contact-page-background.png");
     background-size: cover;
     background-position:center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
      -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;}
+    -o-background-size: cover;
+}
 
 .jumbotron-contact {
-    background-color: transparent;
+    background-image: url("/assets/images/monkees-music-blue.png");
+    background-size: cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    padding-top: 30px;
     margin: 0;
-    padding-top: 30px;}
+    padding-right: 20px;
+    border-bottom: 1px solid #ffffff;
+}
 
 .jumbotron-logo-contact {
     width: 100%;
     max-width: 400px;
     margin-top: 20px;
-    margin-bottom: 50px;}
+    margin-bottom: 50px;
+}
     
 .contact-page-wrapper {
     background-color: transparent;
-    border-radius: 20px;
-    width: 100%;
-    margin: 0 auto;}
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 0;
+    padding: 20px;
+    padding-top: 0;
+}
+
+.contact-form-column {
+    width: 70%;
+    padding: 0;
+    margin: 0;
+}
 
 .contact-main-heading {
     margin-top: 100px;
     text-align: center;
     font-family: "Exo", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 50px;
     text-transform: uppercase;
-    color: #ffffff;}
-
-.contact-form {
-    background-color: transparent;}
-
-.contact-newsletter {
-    background-color: transparent;
-    padding-bottom: 30px;
-    border-bottom: 1px solid #ffffff;
 }
 
 .h3-contact {
@@ -313,7 +358,7 @@ audio {
     margin: 0;
     margin-top: 20px;
     margin-bottom: 20px;
-    color: #ffffff;}
+}
 
 .contact-text {
     font-family: "Roboto", sans-serif;
@@ -321,50 +366,16 @@ audio {
     font-size: 22px;
     margin: 0;
     margin-bottom: 30px;
-    margin-right: 10px;
-    text-align: justify;}
-
-.contact-text2 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 200;
-    font-size: 22px;
-    margin: 0;
-    text-align: left;}
-
-.list-contact-edit {
-    margin: 0;
-    margin-top: 5px;
-    padding: 0;
-    max-width: 400px;
+    text-align: justify;
 }
-
-
-.contact-input-edit {
-    margin: 0 auto;
-    margin-bottom: 20px;}
-
-.subscribe-button-edit {
-    display: block;
-    color: #ffffff;
-    border: 1px solid #800000;
-    background-color: #800000;
-    margin-left: 5px;}
-
-.subscribe-button-edit:hover {
-    background-color: #ffffff;
-    color: #800000;
-    border: 1px solid #800000;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;}
 
 .subscribe-button-edit2 {
     display: block;
     color: #ffffff;
     border: 1px solid #800000;
     background-color: #800000;
-    margin-bottom: 30px;}
+    margin-bottom: 30px;
+}
 
 .subscribe-button-edit2:hover {
     background-color: #ffffff;
@@ -373,65 +384,77 @@ audio {
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;}
-
-.contact-social-media {
-    background-color: transparent;
-    padding-top: 20px;}
-
-.contact-logo {
-    height: 55px;
-    display: block;
-    margin-top: 2px;
-    margin-left: 2px;
+    -o-transition: all 0.35s ease-in-out;
 }
 
-.contact-logo2 {
-    max-height: 55px;
-    display: block;
-    margin-top: 0;}
-    
-.social-media-div {
-    margin-top: 0; 
-    margin-left: 0px ;
-    min-width: 80%;
-    background-color: transparent;}
-
-.contact-logo-wrapper {
-    margin-bottom: 40px;}
-    
 .contact-event-form {
     font-family: "Roboto", sans-serif;
-    font-weight: 300;}
+    font-weight: 300;
+    margin: 0 auto;
+}
+
+
     
-.form-control {
+.form-control-edit {
     margin-bottom: 20px;
     margin-left: 0px;
-    max-width: 400px;}
+}
 
-.subscribe-input-edit {
-    display: block;
-    margin-left: 0;
-    border: 1px solid #ffffff;
-    border-radius: 2px;
-    max-width: 300px;}
 
-.social-icons-contact {
+
+
+.radio-button-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    color: #495057;
     margin-top: 0;
-    margin-left: 10px;
-    color: #800000;
-    font-size: 40px;}
+    margin-bottom: 30px;
+    margin-left: 15px;
+    text-align: left;
+}
 
-.social-icons-contact:hover {
-    color: #ffffff;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;}
+.radio-button-text2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    color: #495057;
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-left: 25px;
+    text-align: left;
+}
+
+.radio-button-text-heading {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #495057;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    text-align: left;
+}
+
+.radio-button-box {
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
 
 
-
-
+.form-label-text {
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: left;
+    display: inline-block;
+    max-width: 200px;
+}
 
 
 /*------------------------------------------------footer*/
@@ -445,30 +468,35 @@ audio {
 
 .footer-logo {
     display: inline-block;
-    text-align: center;}
+    text-align: center;
+}
 
 .monkees-footer-logo {
     max-height: 70px;
     margin-top: 10px;
-    margin-bottom: 10px;}
+    margin-bottom: 10px;
+}
 
 .footer-social-icons {
     display: inline-block;
     text-align: center;
-    margin-top: 15px;}
+    margin-top: 15px;
+}
 
 .social-icons-footer {
     margin-left: 15px;
     margin-right: 10px;
     color: #ffffff;
-    font-size: 40px;}
+    font-size: 40px;
+}
 
 .social-icons-footer:hover {
     color: #800000;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;}
+    -o-transition: all 0.35s ease-in-out;
+}
 
 .footer-signup-text {
     font-family: "Roboto", sans-serif;
@@ -483,7 +511,8 @@ audio {
     color: #ffffff;
     border: 1px solid #ffffff;
     background-color: #b2b2b2;
-    margin-left: 5px;}
+    margin-left: 5px;
+}
 
 .footer-button-edit:hover {
     background-color: #800000;
@@ -491,14 +520,16 @@ audio {
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;}
+    -o-transition: all 0.35s ease-in-out;
+}
 
 .footer-input-edit {
     display: block;
     margin: 0 auto;
     border: 1px solid #ffffff;
     border-radius: 2px;
-    max-width: 400px;}
+    max-width: 400px;
+}
 
 /*------------------------------------------------media-queries*/
 
@@ -509,7 +540,8 @@ audio {
     margin-top: 10px;
     margin-bottom: 10px;
     font-weight: 700;
-    font-size: 20px;}
+    font-size: 20px;
+    }
 
     .navbar-collapse {
     background-color: #b2b2b2;
@@ -519,9 +551,25 @@ audio {
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
     .contact-social-media {
-        padding-bottom: 30px;}
+        padding-bottom: 30px;
+    }
     
     .contact-newsletter {
         border-bottom: none;
-        padding-bottom: 0;}
+        padding-bottom: 0;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .contact-form-column {
+    width: 100%;
+}
+}
+
+
+@media screen and (max-width: 1024px) {
+    .contact-form-cartoon-image {
+        display: none;
+    }
 }

@@ -317,13 +317,6 @@ audio {
     padding-right: 20px;
     border-bottom: 1px solid #ffffff;
 }
-
-.jumbotron-logo-contact {
-    width: 100%;
-    max-width: 400px;
-    margin-top: 20px;
-    margin-bottom: 50px;
-}
     
 .contact-page-wrapper {
     background-color: transparent;
@@ -369,15 +362,16 @@ audio {
     text-align: justify;
 }
 
-.subscribe-button-edit2 {
+.contact-form-button-edit {
     display: block;
     color: #ffffff;
     border: 1px solid #800000;
     background-color: #800000;
     margin-bottom: 30px;
+    margin: 0 auto;
 }
 
-.subscribe-button-edit2:hover {
+.contact-form-button-edit:hover {
     background-color: #ffffff;
     color: #800000;
     border: 1px solid #800000;
@@ -392,58 +386,12 @@ audio {
     font-weight: 300;
     margin: 0 auto;
 }
-
-
     
 .form-control-edit {
     margin-bottom: 20px;
     margin-left: 0px;
+    max-width: 300px;
 }
-
-
-
-
-.radio-button-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-size: 22px;
-    color: #495057;
-    margin-top: 0;
-    margin-bottom: 30px;
-    margin-left: 15px;
-    text-align: left;
-}
-
-.radio-button-text2 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-size: 22px;
-    color: #495057;
-    margin-top: 0;
-    margin-bottom: 30px;
-    margin-left: 25px;
-    text-align: left;
-}
-
-.radio-button-text-heading {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    color: #495057;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-left: 15px;
-    text-align: left;
-}
-
-.radio-button-box {
-    background-color: #ffffff;
-    border: 1px solid #ced4da;
-    border-radius: 5px;
-    max-width: 400px;
-    margin-bottom: 20px;
-}
-
 
 .form-label-text {
     font-family: "Exo", sans-serif;
@@ -455,7 +403,6 @@ audio {
     display: inline-block;
     max-width: 200px;
 }
-
 
 /*------------------------------------------------footer*/
 
@@ -549,24 +496,11 @@ audio {
     }
 }
 
-@media screen and (min-width: 0px) and (max-width: 768px) {
-    .contact-social-media {
-        padding-bottom: 30px;
-    }
-    
-    .contact-newsletter {
-        border-bottom: none;
-        padding-bottom: 0;
-    }
-
-}
-
 @media screen and (max-width: 480px) {
     .contact-form-column {
     width: 100%;
+    }
 }
-}
-
 
 @media screen and (max-width: 1024px) {
     .contact-form-cartoon-image {

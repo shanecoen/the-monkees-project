@@ -120,8 +120,137 @@ a:link {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
+
+/*------------------------------------------------the band*/
+
+.jumbotron-band {
+    background-image: url("/assets/images/the-monkees-band-background.png");
+    background-size: cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    padding-top: 30px;
+    margin: 0;
+    padding-right: 20px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.band-body {
+    background-image: url("/assets/images/band-body-background.png");
+    background-size: cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.the-band-article-one {
+}
+
+.the-band-article-one-wrapper {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.tv-series-wrapper {
+    padding-bottom: 60px;
+}
+
+.meet-band-wrapper {
+    border-bottom: 1px solid #ffffff;
+}
+
+.band-one-div {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+.tv-series-div-1 {
+    background-color: transparent;
+    margin-top: 0;;
+    padding: 0;
+}
+
+.tv-series-div-2 {
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.old-band-pic {
+    max-width: 100%;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-bottom: 50px;
+}
+
+.cartoon-band-pic {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.youtube-band-pic {
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.youtube-div {
+    padding: 0;
+    width: 100px;
+    height: 80px;
+    border-radius: 25px;
+    background-color: transparent;
+    margin: 0 auto;
+}
+
+.youtube-div:hover {
+    background-color: #b2b2b2;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.band-div-text-1 {
+    margin: 50px 20px 40px 20px;
+}
+
+.blockquote-edit {
+     line-height: 2;
+     text-align: justify;
+     font-style: italic;
+     font-size: 22px;
+}
+
+.blockquote-footer-edit {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.meet-the-monkees-pic {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.band-two-div {
+    background-color: transparent;
+    padding-top: 10px;
+}
     
-/*------------------------------------------------music*/
+/*------------------------------------------------the music*/
 
 .music-body {
     background-image: url("/assets/images/The-Monkees-19662.png");

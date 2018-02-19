@@ -121,6 +121,67 @@ a:link {
     -o-transition: all 0.35s ease-in-out;
 }
 
+.home-page-wrapper {
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.latest-news-home-wrapper {
+    border: 1px solid pink;
+    margin: 0 auto;
+}
+
+.fifty-years-div {
+    background-color: transparent;
+    margin-top: 30px;
+    float: left;
+}
+
+.latest-news-video-div {
+    background-color: transparent;
+    margin-top: 30px;
+    float: left;
+    max-width: 90%;
+}
+
+.fifty-years-yellow-logo {
+    max-width: 70%;
+    margin-top: 0;
+    display: block;
+    margin: 0 auto;
+}
+
+.latest-news-home-div {
+    background-color: transparent;
+    float: left;
+}
+
+.latest-news-slider-div {
+    border: 1px solid #b2b2b2;
+    max-width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.latest-news-fifty-years-one {
+    margin-top: 30px;
+    height: 200px;
+    background-color: orange;
+    float: left;
+}
+
+
+.latest-news-fifty-years-two {
+    margin-top: 30px;
+    height: 200px;
+    background-color: #800000;
+    float: left;
+}
+
 /*------------------------------------------------the band*/
 
 .jumbotron-band {
@@ -149,9 +210,6 @@ a:link {
     -o-background-size: cover;
 }
 
-.the-band-article-one {
-}
-
 .the-band-article-one-wrapper {
     padding-bottom: 20px;
     border-bottom: 1px solid #ffffff;
@@ -173,7 +231,7 @@ a:link {
 
 .tv-series-div-1 {
     background-color: transparent;
-    margin-top: 0;;
+    margin-top: 0;
     padding: 0;
 }
 
@@ -203,6 +261,99 @@ a:link {
     display: block;
     margin: 0 auto;
     margin-bottom: 30px;
+}
+
+.button-meet-monkees {
+    display: block;
+    margin: 0 auto;
+    background-color: transparent;
+    border: 1px solid #800000;
+    height: 90px;
+    width: 120px;
+}
+
+.button-meet-monkees:hover {
+    background-color: #ffffff;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.card-individual-images {
+    width: 100%;
+}
+
+.card-edit {
+    background-color: transparent;
+    border: none;
+}
+
+.card-img-top {
+    height: 80px;
+}
+
+.card-meet-edit {
+    background-color: transparent;
+    border: 1px solid #b2b2b2;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-link-edit {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+ .btn-link-edit:hover {
+     background-color: #ffffff;
+     text-decoration: none;
+ }
+ 
+.meet-the-band-pic {
+    max-width: 90%;
+    max-height: 430px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.meet-the-band-pic-div {
+    height: 460px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+}
+
+.carousel-indicators li {
+    background-color: #800000;
+}
+
+.carousel-control-next-icon-edit {
+    background-image: url("/assets/images/arrow-right.png");
+    width: 30px;
+    height: 30px;
+}
+
+.carousel-control-prev-icon-edit {
+    background-image: url("/assets/images/arrow-left.png");
+    width: 30px;
+    height: 30px;
+}
+
+.card-header-edit {
+    margin-top: 0;
+    padding: 0;
+}
+
+.card-img-top {
+    display: block;
+    float: right;
+    height: 80px;
+    width: auto;
+    margin: 0;
+    padding: 0;
 }
 
 .youtube-div {
@@ -389,11 +540,6 @@ a:link {
     font-family: "Roboto", sans-serif;
 }
 
-.card-edit {
-    background-color: transparent;
-    border: none;
-}
-
 .best-of-album-songs {
     background-color: transparent;
     padding-bottom: 10px;
@@ -405,6 +551,11 @@ a:link {
     border: none;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
+}
+
+.music-card-img-top {
+    width: 100%;
+    height: auto;
 }
 
 .h5-edit {
@@ -623,13 +774,26 @@ audio {
     background-color: #b2b2b2;
     opacity: 0.8;
     }
+    
+    .meet-the-band-pic {
+    padding-top: 0;
+    }
+    
+    .meet-the-band-pic-div {
+    margin-bottom: 40px;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .contact-form-column {
     width: 100%;
     }
+    
+    .meet-the-band-pic-div {
+    display: none;
+    }
 }
+
 
 @media screen and (max-width: 1024px) {
     .contact-form-cartoon-image {

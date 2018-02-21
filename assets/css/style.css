@@ -145,14 +145,6 @@ a:link {
     border-bottom: 1px solid #ffffff;
 }
 
-.home-top-section-slider {
-    width: 80%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    padding-bottom: 130px;
-}
-
 .fifty-years-div {
     background-color: transparent;
     margin-top: 0;
@@ -164,13 +156,13 @@ a:link {
 .latest-news-video-div {
     background-color: transparent;
     float: left;
-    margin-top: 40px;
-    margin-bottom: 60px;
+    padding-bottom: 50px;
+    margin-top: 10px;
 }
 
 .home-page-video {
-    border: 15px solid #000000;
-    border-radius: 20px;
+     border: 20px solid #000000;
+     border-radius: 5px;
 }
 
 .home-video-edit {
@@ -196,7 +188,6 @@ a:link {
 .frame-home-slider {
     display: block;
     margin: 0 auto;
-    
 }
 
 .picture-frame-pic {
@@ -205,7 +196,6 @@ a:link {
     margin: 0 auto;
     position: relative;
     width: 100%;
-    
 }
 
 .latest-news-wrapper {
@@ -219,12 +209,16 @@ a:link {
     float: left;
 }
 
+.news-carousel-edit {
+    padding-bottom: 30px;
+}
+
 .latest-news-slider-div {
     border-radius: 20px;
     max-width: 100%;
     margin: 0 auto;
     margin-top: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     padding: 0;
 }
 
@@ -246,6 +240,8 @@ a:link {
 .latest-news-fifty-years-two {
     margin-top: 0;
     float: left;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .upcoming-events-home-div {
@@ -256,12 +252,21 @@ a:link {
 .home-card-edit {
     background-color: transparent;
     border: none;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .home-card-img-top {
     width: 100%;
     height: auto;
     border-radius: 5px;
+}
+
+.carousel-item-transition {
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 /*------------------------------------------------the band*/

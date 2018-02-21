@@ -88,6 +88,7 @@ a:link {
     padding-top: 30px;
     margin: 0;
     padding-right: 20px;
+    border-bottom: 1px solid #ffffff;
 }
 
 .jumbotron-logo {
@@ -95,6 +96,17 @@ a:link {
     max-width: 400px;
     margin-top: 50px;
     margin-left: 10px;
+}
+
+.body-home-page {
+    background-image: url("/assets/images/monkees1967.png");
+    background-size: cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
     
 .call-out-button-edit1 {
@@ -127,29 +139,79 @@ a:link {
     margin-top: 10px;
 }
 
-.latest-news-home-wrapper {
-    border: 1px solid pink;
+.home-top-section-wrapper {
+    width: 90%;
     margin: 0 auto;
+    border-bottom: 1px solid #ffffff;
+}
+
+.home-top-section-slider {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 130px;
 }
 
 .fifty-years-div {
     background-color: transparent;
-    margin-top: 30px;
+    margin-top: 0;
+    margin: 0 auto;
     float: left;
+    margin-bottom: 60px;
 }
 
 .latest-news-video-div {
     background-color: transparent;
-    margin-top: 30px;
     float: left;
-    max-width: 90%;
+    margin-top: 40px;
+    margin-bottom: 60px;
 }
 
-.fifty-years-yellow-logo {
-    max-width: 70%;
+.home-page-video {
+    border: 15px solid #000000;
+    border-radius: 20px;
+}
+
+.home-video-edit {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.picture-frame-slider {
+    max-width: 85%;
+    padding-top: 30px;
     margin-top: 0;
     display: block;
     margin: 0 auto;
+     position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.frame-home-slider {
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.picture-frame-pic {
+    display: block;
+    float: left;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    
+}
+
+.latest-news-wrapper {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #ffffff;
 }
 
 .latest-news-home-div {
@@ -158,28 +220,48 @@ a:link {
 }
 
 .latest-news-slider-div {
-    border: 1px solid #b2b2b2;
+    border-radius: 20px;
     max-width: 100%;
-    height: 500px;
     margin: 0 auto;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     padding: 0;
 }
 
 .latest-news-fifty-years-one {
-    margin-top: 30px;
-    height: 200px;
-    background-color: orange;
+    margin-top: 0;
+    margin-bottom: 50px;
     float: left;
 }
 
+.anniversary-pic {
+    margin-top: 0;
+    max-width: 100%;
+    height: 320px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
 
 .latest-news-fifty-years-two {
-    margin-top: 30px;
-    height: 200px;
-    background-color: #800000;
+    margin-top: 0;
     float: left;
+}
+
+.upcoming-events-home-div {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.home-card-edit {
+    background-color: transparent;
+    border: none;
+}
+
+.home-card-img-top {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
 /*------------------------------------------------the band*/
@@ -792,8 +874,11 @@ audio {
     .meet-the-band-pic-div {
     display: none;
     }
+    
+    .picture-frame-slider {
+    padding-top: 20px;
+    }
 }
-
 
 @media screen and (max-width: 1024px) {
     .contact-form-cartoon-image {

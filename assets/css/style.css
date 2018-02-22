@@ -35,7 +35,7 @@ a:link {
 }
 
 .navbar-dark .navbar-toggler-icon {
-    background-image: url("/assets/images/hamburger-icon-maroon.png");
+    background-image: url("../../assets/images/hamburger-icon-maroon.png");
 }
 
 .navbar-dark .navbar-toggler:hover {
@@ -99,7 +99,7 @@ a:link {
 }
 
 .body-home-page {
-    background-image: url("/assets/images/monkees1967.png");
+    background-image: url("../../assets/images/monkees1967.png");
     background-size: cover;
     background-position:center center;
     background-repeat: no-repeat;
@@ -272,7 +272,7 @@ a:link {
 /*------------------------------------------------the band*/
 
 .jumbotron-band {
-    background-image: url("/assets/images/the-monkees-band-background.png");
+    background-image: url("../../assets/images/the-monkees-band-background.png");
     background-size: cover;
     background-position:center center;
     background-repeat: no-repeat;
@@ -287,7 +287,7 @@ a:link {
 }
 
 .band-body {
-    background-image: url("/assets/images/band-body-background.png");
+    background-image: url("../../assets/images/band-body-background.png");
     background-size: cover;
     background-position:center center;
     background-repeat: no-repeat;
@@ -430,13 +430,13 @@ a:link {
 }
 
 .carousel-control-next-icon-edit {
-    background-image: url("/assets/images/arrow-right.png");
+    background-image: url("../../assets/images/arrow-right.png");
     width: 30px;
     height: 30px;
 }
 
 .carousel-control-prev-icon-edit {
-    background-image: url("/assets/images/arrow-left.png");
+    background-image: url("../../assets/images/arrow-left.png");
     width: 30px;
     height: 30px;
 }
@@ -512,7 +512,7 @@ a:link {
 /*------------------------------------------------the music*/
 
 .music-body {
-    background-image: url("/assets/images/The-Monkees-19662.png");
+    background-image: url("../../assets/images/The-Monkees-19662.png");
     background-size: cover;
     background-position:center center;
     background-repeat: no-repeat;
@@ -523,7 +523,7 @@ a:link {
 }
 
 .jumbotron-music {
-    background-image: url("/assets/images/the-monkees-music-header2.png");
+    background-image: url("../../assets/images/the-monkees-music-header2.png");
     background-size: cover;
     background-position:center center;
     background-repeat: no-repeat;
@@ -696,10 +696,10 @@ audio {
     margin: 0 auto;
 }
 
-/*------------------------------------------------contact-page*/
+/*------------------------------------------------event-booking*/
 
 .contact-body {
-    background-image: url("/assets/images/monkees-contact-page-background.png");
+    background-image: url("../../assets/images/monkees-contact-page-background.png");
     background-size: cover;
     background-position:center center;
     background-repeat: no-repeat;
@@ -710,7 +710,7 @@ audio {
 }
 
 .jumbotron-contact {
-    background-image: url("/assets/images/monkees-music-blue.png");
+    background-image: url("../../assets/images/monkees-music-blue.png");
     background-size: cover;
     background-position:center center;
     background-repeat: no-repeat;

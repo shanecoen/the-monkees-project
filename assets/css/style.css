@@ -51,26 +51,22 @@ a:link {
 }
 
 .navbar-nav {
-    float:none;
     margin:0 auto;
     display: block;
+    float:none;
     text-align: center;
 }
 
-.navbar-nav > li {
-    display: inline-block;
-    float:none;
-}
-
 .headings {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 22px;
+    display: block;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     text-align: left;
-    display: inline-block;
     color: #ffffff;
 }
 
@@ -173,7 +169,7 @@ a:link {
 
 .picture-frame-slider {
     max-width: 85%;
-    padding-top: 30px;
+    padding-top: 20px;
     margin-top: 0;
     display: block;
     margin: 0 auto;
@@ -262,11 +258,9 @@ a:link {
     border-radius: 5px;
 }
 
-.carousel-item-transition {
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+.audio-daydream-edit {
+    display: block;
+    margin: 0 auto;
 }
 
 /*------------------------------------------------the band*/
@@ -405,8 +399,8 @@ a:link {
 }
 
  .btn-link-edit:hover {
-     background-color: #ffffff;
-     text-decoration: none;
+    background-color: #ffffff;
+    text-decoration: none;
  }
  
 .meet-the-band-pic {
@@ -421,8 +415,10 @@ a:link {
 .meet-the-band-pic-div {
     height: 460px;
     margin: 0;
+    margin-bottom: 40px;
     padding: 0;
     padding-bottom: 20px;
+    display: none;
 }
 
 .carousel-indicators li {
@@ -481,10 +477,10 @@ a:link {
      text-align: justify;
      font-style: italic;
      font-size: 22px;
-     margin-left: 80px;
-     margin-right: 80px;
      padding-top: 60px;
      padding-bottom: 40px;
+     margin-left: 20px;
+     margin-right: 20px;
 }
 
 .blockquote-footer-edit {
@@ -734,7 +730,7 @@ audio {
 }
 
 .contact-form-column {
-    width: 70%;
+    width: 100%;
     padding: 0;
     margin: 0;
 }
@@ -820,8 +816,7 @@ audio {
 }
 
 .footer-logo {
-    display: inline-block;
-    text-align: center;
+    display: none;
 }
 
 .monkees-footer-logo {
@@ -886,53 +881,38 @@ audio {
 
 /*------------------------------------------------media-queries*/
 
-@media screen and (min-width: 0px) and (max-width: 992px) {
+@media (min-width: 992px) {
   .headings {
-    display: block;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-weight: 700;
-    font-size: 20px;
-    }
-
-    .navbar-collapse {
-    background-color: #b2b2b2;
-    opacity: 0.8;
-    }
-    
-    .meet-the-band-pic {
-    padding-top: 0;
-    }
-    
-    .meet-the-band-pic-div {
-    margin-bottom: 40px;
+      display: inline-block;
+      font-weight: 500;
+      font-size: 24px;
+      margin-left: 20px;
+      margin-right: 20px; 
     }
 }
 
-@media screen and (max-width: 480px) {
-    .contact-form-column {
-    width: 100%;
-    }
-    
-    .meet-the-band-pic-div {
-    display: none;
-    }
-    
+@media (min-width: 480px) {
     .picture-frame-slider {
-    padding-top: 20px;
+    padding-top: 30px;
+    }
+    
+    .contact-form-column {
+    width: 70%;
+    }
+    
+    .meet-the-band-pic-div {
+    display: block;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 768px) {
     .blockquote-edit {
-     margin-left: 20px;
-     margin-right: 20px;
+     margin-left: 80px;
+     margin-right: 80px;
     }
-}
-
-@media screen and (max-width: 768px) {
+    
     .footer-logo {
-        display: none;
+        display: inline-block;
+        text-align: center;
     }
 }

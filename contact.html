@@ -78,30 +78,27 @@
                           
           <h3 class="section-header-text-1 mt-4 mb-5 text-muted text-center">Your Event Details:</h3>
           
+          <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label class="mb-3 form-label-text text-muted" for="inlineFormCustomSelect">Event Type:</label>
+                  <select class="custom-select form-control-edit" id="inlineFormCustomSelect">
+                    <option selected>Please Choose:</option>
+                    <option value="1">Music-Venue</option>
+                    <option value="2">Festival</option>
+                    <option value="3">Night-Club</option>
+                    <option value="4">Corporate</option>
+                    <option value="5">Birthday</option>
+                    <option value="6">Anniversary</option>
+                    <option value="7">Wedding</option>
+                    <option value="8">Private</option>
+                    <option value="9">Other</option>
+                  </select>
+                </div>
+          </div>
+                      
                       <div class="form-row">
                           <div class="form-group col-md-6">
-                              <div class="form-row align-items-center">
-                                <div class="col-auto my-1">
-                                  <label class="mb-3 form-label-text text-muted" for="inlineFormCustomSelect">Select Event Type:</label>
-                                  <select class="custom-select mr-sm-2 form-control-edit" id="inlineFormCustomSelect">
-                                    <option selected>Please Choose:</option>
-                                    <option value="1">Music Venue</option>
-                                    <option value="2">Festival</option>
-                                    <option value="3">Bar/ Night Club</option>
-                                    <option value="1">Corporate Event</option>
-                                    <option value="2">Birthday</option>
-                                    <option value="3">Anniversary</option>
-                                    <option value="1">Wedding</option>
-                                    <option value="2">Private Event</option>
-                                    <option value="3">Other</option>
-                                  </select>
-                                </div>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="form-row">
-                          <div class="form-group col-md-6">
-                            <label for="inputlocation" class="form-label-text text-muted ">Event Location:</label>
+                            <label for="inputlocation" class="form-label-text text-muted">Event Location:</label>
                             <input type="text" name="eventlocation" class="form-control form-control-edit" id="eventlocation" required/>
                           </div>
                           <div class="form-group col-md-6">

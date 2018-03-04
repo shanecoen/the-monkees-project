@@ -1,4 +1,4 @@
-# The Monkees
+# The Monkees Website
 
 ### Who is this website for?
 
@@ -14,17 +14,17 @@ hear and see all of their greatest memories.
 
 Some of its key features include:
 
--•	Users can listen to the bands current greatest hits and new material will be made available when it is released.
--•	Music videos can be viewed.
--•	Links are available to purchase past albums.
--•	All the bands latest news is available.
--•	Photos of the band throughout their 50 years.
--•	Information on all band members.
--•	Details of all up-coming events and links to purchase tickets.
--•	Users can sign up to The Monkees newsletter.
--•	Fast access to official Facebook, Twitter and YouTube pages are easily accessible.
--•	The Monkees can be contacted about booking for future events via the Event Booking page.
--•	The website is responsive and can be easily accessed and viewed on any device i.e. mobile, tablet or desktop.
+*	Users can listen to the bands current greatest hits and new material will be made available when it is released.
+*	Music videos can be viewed.
+*	Links are available to purchase past albums.
+*	All the bands latest news is available.
+*	Photos of the band throughout their 50 years.
+*	Information on all band members.
+*	Details of all up-coming events and links to purchase tickets.
+*	Users can sign up to The Monkees newsletter.
+*	Fast access to official Facebook, Twitter and YouTube pages are easily accessible.
+*	The Monkees can be contacted about booking for future events via the Event Booking page.
+*	The website is responsive and can be easily accessed and viewed on any device i.e. mobile, tablet or desktop.
 
 ### Where can the website be viewed?
 
@@ -33,17 +33,26 @@ This website is hosted by GitHub pages and can be viewed at:
 
 ## The Website
 
-![responsive website image](assets/images/the-monkees-responsive.png)
+![responsive website image](assets/images/readme-the-monkees-responsive.png)
+
 
 ### Responsively Designed
 
 This website has been designed Mobile first as priority and huge importance has put into this area to ensure that
-it funtions responsivelly on all devices be it mobile, tablet and desktop screen sizes.
+it functions responsivelly on all devices be it mobile, tablet and desktop screen sizes.
 
 The bootstrap framework was used extensivelly to give the website a highly responsive layout.
 
 The website was tested at every single stage to ensure that it responded correctly to every device type. Media Queries
 were used where required to ensure that every aspect responded as desired with regard to image size, layout, positioning etc.
+
+### Technologies Used & Functionality
+
+#### Homepage
+
+
+
+
 
 
 

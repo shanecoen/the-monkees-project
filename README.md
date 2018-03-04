@@ -41,20 +41,35 @@ This website is hosted by GitHub pages and can be viewed at:
 This website has been designed Mobile first as priority and huge importance has put into this area to ensure that
 it functions responsivelly on all devices be it mobile, tablet and desktop screen sizes.
 
+It was designed using the 5 principles of UX Design (strategy, scope, structure, skeleton and surface) in order to develop
+a website that fully met the users needs.
+
 The bootstrap framework was used extensivelly to give the website a highly responsive layout.
 
 The website was tested at every single stage to ensure that it responded correctly to every device type. Media Queries
 were used where required to ensure that every aspect responded as desired with regard to image size, layout, positioning etc.
 
-### Technologies Used & Functionality:
+### UX Design
+
+It was designed using the 5 principles of UX Design (strategy, scope, structure, skeleton and surface) in order to develop
+a website that fully met the users needs.
+
+### Technologies Used:
+
+* Bootstrap 4.0 (note: all features of the Bootstrap framework that were utilisied throughtout this project were modified with my
+own styles in order to meet my requirements).
+* HTML5
+* CSS3
+
+### Functionality:
 
 #### Common To All Pages:
 
 * Navbar
 
-Boostrap was used to create the Navbar that is used and is common to all pages in this website (It has been modified using my own styles).
-It responds to all screen sizes and produces a collapsible navbar menu on smaller mobile and tablet screen sizes. The image below show the navbar 
-in tablet screen size with the menu collapsed and the collpased menu open.
+Boostrap was used to create the Navbar that is used and is common to all pages in this website. It responds to all 
+screen sizes and produces a collapsible navbar menu on smaller mobile and tablet screen sizes. The image below 
+show the navbar in tablet screen size with the menu collapsed and the collpased menu open.
 
 ![responsive navbar image](assets/images/readme-navbar.png)
 
@@ -104,17 +119,62 @@ to the device type being used.
 This page again makes use of Bootstrap carousel feature to allows the user to naviagte through a number of images of the band. Navigation is 
 allowed via the use of the next and previous icons (images will also change automitically).
 
-![meet the monkees section image](assets/images/readme-meet-the-monkees.png)
-
 * Meet The Monkees
 
-This feature uses the Boostrap card component and the collapsible accordian.  Each collapsible card is used to feature one individual
+This feature uses the Boostrap card component and the collapsible accordian (modified using my own styles).  Each collapsible card is used to feature one individual
 member of the band (includes four in total) and features the members name and an image. Once the card is clicked it opens to reveal information
-and another image of the band member. When one card is opened it automitically closes any previoud card that had been opened.
+and another image of the band member. When one card is opened it automitically closes any previoud card that had been opened (image below shows
+card unopened (left) and opened (right).
 
 ![meet the monkees section image](assets/images/readme-meet-the-monkees-two.png)
 
 #### The Music (music.html):
+
+* Audio And Video Files
+
+This page allows the user to listen to some of The Monkees greatest hits via Audio Files. The files are laid out using Bootstraps list group and
+each file comes wth controls to play, pause, download (depending on browser) and adjust sound. A link is included to purchase the album that
+these audio files come from.
+
+The three music video files included are similar to the band.html and use Bootstraps responsive <iframe> embedded videos.
+
+![music audio files image](assets/images/readme-music-audio.png)
+
+* Albums
+
+This section uses the Bootstrap "Card" feature. A list of The Monkees past albums featuring an image, album title and a link to purchase is
+included. These albums covers are responsive and react to individual device sizes.
+
+![album purchase section image](assets/images/readme-albums.png)
+
+#### Event Booking (contact.html):
+
+* Event Booking Form
+
+This page allows the user to contact The Monkees with regard to making a future booking for events such as birthdays anniversaries and larger 
+events such music venues and festivals. It makes use of Bootstraps form-group and uses labels and inputs (including select fields and radio
+buttons). The image below show the event booking form in both mobile (left) and desktop view (right).
+
+![event booking form image](assets/images/readme-booking.png)
+
+### Testing:
+
+This website was tested at every single stage to ensure that it responded correctly to every device type. Media Queries
+were used where required to ensure that every aspect responded as desired with regard to image size, layout, positioning etc.
+
+It was tested using various browsers i.e. Google Chrome, Microsoft Edge and Mozilla Firefox utilising available tools such as 
+Chromes dev tools and Firefox's Responsive design mode. The site could then be inspected as it was being worked on and any changes being made to the site were constantly
+being monitored to see how the different browsers and screen sizes would be affected. Using all these available tools I was able to
+ensure my website functioned correctly and is responsive as possible on all device sizes. The image below shows how this responsive design
+mode tool was utilised to show the website on various device types and brands.
+
+![mozilla firefox responsive design mode image](assets/images/readme-responsive-design-mode.png)
+
+### Author:
+
+Shane Coen (This project is part of Code Institute's Online mentored Software Developemnt course and was completed in March 2018).
+
+
 
 
 

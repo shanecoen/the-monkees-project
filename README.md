@@ -46,14 +46,14 @@ The bootstrap framework was used extensively to give the website a highly respon
 The website was tested at every single stage to ensure that it responded correctly to every device type. Media Queries
 were used where required to ensure that every aspect responded as desired with regard to image size, layout, positioning etc.
 
-### UX Design
+### UX Design:
 
 It was designed using the 5 principles of UX Design (strategy, scope, structure, skeleton and surface) in order to develop
 a website that fully met the users needs.
 
 ### Technologies Used:
 
-* Bootstrap 4.0 (note: all features of the Bootstrap framework that was utilisied throughtout this project was modified with my
+* Bootstrap 4.0 (note: all features of the Bootstrap framework that were utilisied throughtout this project were modified with my
 own styles in order to meet my requirements).
 * HTML5
 * CSS3
@@ -169,7 +169,7 @@ mode tool was utilised to show the website on various device types and brands.
 
 ### Author:
 
-Shane Coen (This project is part of Code Institute's Online mentored Software Developemnt course and was completed in March 2018).
+Shane Coen (This project is part of Code Institute's Online mentored Software Developement course and was completed in March 2018).
 
 
 

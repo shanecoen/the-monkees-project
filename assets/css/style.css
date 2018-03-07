@@ -18,11 +18,11 @@ a:link {
     border-bottom: 1px solid #ffffff;
 }
 
-.navbar-dark .navbar-nav .nav-link {
+.navbar-dark .navbar-nav .headings {
     color: #800000;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover {
+.navbar-dark .navbar-nav .headings:hover {
     color: #ffffff;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -30,15 +30,15 @@ a:link {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.navbar-dark .navbar-toggler {
+.navbar-dark .navbar-toggler-edit {
     border: 1px solid #800000;
 }
 
-.navbar-dark .navbar-toggler-icon {
+.navbar-dark .navbar-toggler-icon-edit {
     background-image: url("../../assets/images/hamburger-icon-maroon.png");
 }
 
-.navbar-dark .navbar-toggler:hover {
+.navbar-dark .navbar-toggler-edit:hover {
     background-color: #ffffff;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -50,11 +50,10 @@ a:link {
     height: 60px;
 }
 
-.navbar-nav {
+.navbar-nav-edit {
     margin:0 auto;
     display: block;
     float:none;
-    text-align: center;
 }
 
 .headings {
@@ -67,7 +66,6 @@ a:link {
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     text-align: left;
-    color: #ffffff;
 }
 
 /*------------------------------------------------home-page*/

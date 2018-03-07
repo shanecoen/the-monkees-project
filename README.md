@@ -64,9 +64,10 @@ own styles in order to meet my requirements).
 
 * Navbar
 
-Bootstrap was used to create the Navbar that is used and is common to all pages in this website. It responds to all 
-screen sizes and produces a collapsible navbar menu on smaller mobile and tablet screen sizes. The image below 
-show the navbar in tablet screen size with the menu collapsed and the collpased menu open.
+Bootstrap was used to create the Navbar that is used and is common to all pages in this website. It is fixed and is visiable at all times.
+It has an opacity of 0.8 therefore the background is always slightly visible behind it. It responds to all screen sizes and produces a collapsible 
+navbar menu on smaller mobile and tablet screen sizes. The image below show the navbar in tablet screen size with the menu collapsed and the 
+collpased menu open.
 
 ![responsive navbar image](assets/images/readme-navbar.png)
 
@@ -164,6 +165,9 @@ Chromes dev tools and Firefox's Responsive design mode. The site could then be i
 being monitored to see how the different browsers and screen sizes would be affected. Using all these available tools I was able to
 ensure my website functioned correctly and is responsive as possible on all device sizes. The image below shows how this responsive design
 mode tool was utilised to show the website on various device types and brands.
+
+All HTML and CSS code was run through W3C validators to ensure that all code written is valid and to make sure that it complies with the 
+standards set by the W3 Consortium.
 
 ![mozilla firefox responsive design mode image](assets/images/readme-responsive-design-mode.png)
 

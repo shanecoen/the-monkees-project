@@ -2,22 +2,22 @@
 
 ### Who is this website for?
 
-The monkees are a 1960’s rock band who have recently celebrated their 50 year anniversary. 
+The Monkees are a 1960’s rock band who have recently celebrated their 50 year anniversary. 
 They are world renowned musicians who have vast experience of performing at live events throughout 
 the globe and have built up huge legions of fans during their time at the top.
 
-### What needs does it fulfill?
+### What needs does it fulfil?
 
 This website has been created to help publicise the band further and to help showcase their music. 
 Its primary target is current and potential fans of “The Monkees” and is a place where they can 
-hear and see all of their greatest memories. 
+hear and see all of their greatest music and memories. 
 
 Some of its key features include:
 
 *	Users can listen to the bands current greatest hits and new material will be made available when it is released,
 *	Music videos can be viewed,
 *	Links are available to purchase past albums,
-*	All the bands latest news is available,
+*	All the band's latest news is available,
 *	Photos of the band throughout their 50 years,
 *	Information on all band members,
 *	Details of all up-coming events and links to purchase tickets,
@@ -49,11 +49,15 @@ were used where required to ensure that every aspect responded as desired with r
 ### UX Design:
 
 It was designed using the 5 principles of UX Design (strategy, scope, structure, skeleton and surface) in order to develop
-a website that fully met the users needs.
+a website that fully met the user's needs.
+
+### Semantic HTML:
+
+Wherever possible Semantic HTML5 elements were used in order to have the HTML code structured correctly.
 
 ### Technologies Used:
 
-* Bootstrap 4.0 (note: all features of the Bootstrap framework that were utilisied throughtout this project were modified with my
+* Bootstrap 4.0 (note: all features of the Bootstrap framework that were utilised throughout this project were modified with my
 own styles in order to meet my requirements).
 * HTML5
 * CSS3
@@ -64,10 +68,10 @@ own styles in order to meet my requirements).
 
 * Navbar
 
-Bootstrap was used to create the Navbar that is used and is common to all pages in this website. It is fixed and is visiable at all times.
+Bootstrap was used to create the Navbar that is used and is common to all pages in this website. It is fixed and is visible at all times.
 It has an opacity of 0.8 therefore the background is always slightly visible behind it. It responds to all screen sizes and produces a collapsible 
 navbar menu on smaller mobile and tablet screen sizes. The image below show the navbar in tablet screen size with the menu collapsed and the 
-collpased menu open.
+collapsed menu open.
 
 ![responsive navbar image](assets/images/readme-navbar.png)
 
@@ -84,15 +88,15 @@ allows users to sign up to the newsletter which gives unique access to all The M
 
 * Picture Slider
 
-The homepage displays a picture slider feature. Its makes use of the Bootstrap Carousel and is placed behind a picture frame image which is used
-to help display famous memories of The Monkees. The images slide automatically and no navigation controls are present. 
+The homepage displays a picture slider feature. It makes use of the Bootstrap Carousel and is placed behind a picture frame image which is used
+to help display famous memories of The Monkees. The images change automatically and no navigation controls are present. 
 
 ![homepage picture frame slider](assets/images/readme-picture-frame.png)
 
 * News Reel
 
 The Bootstrap Carousel was again used for this feature but it was edited and was transformed into a news reel showing all the latest
-news. These news reel items feature Headings, images and text and a video and audio file. The user can naviagte between each item using the
+news. These news reel items feature Headings, images and text and a video and audio file. The user can navigate between each item using the
 next and previous icons, they also change automatically after 10 seconds or will pause when the user hovers over them.
 
 ![homepage news reel slider](assets/images/readme-news-reel.png)
@@ -114,14 +118,15 @@ to the device type being used.
 
 * Image Slider
 
-This page again makes use of Bootstrap carousel feature to allow the user to naviagte through a number of images of the band. Navigation is 
-allowed via the use of the next and previous icons (images will also change automatically).
+This page again makes use of Bootstrap carousel feature in order to give an introduction to the four band members and also to show
+a number of images of the band. There are no navigation controls and each slide will change automatically after 3 seconds. This slider
+is hidden on smaller mobile screen sizes.
 
 * Meet The Monkees
 
-This feature uses the Boostrap card component and the collapsible accordian (modified using my own styles).  Each collapsible card is used to feature one individual
+This feature uses the Bootstrap card component and the collapsible accordion (modified using my own styles).  Each collapsible card is used to feature one individual
 member of the band (includes four in total) and features the members name and an image. Once the card is clicked it opens to reveal information
-and another image of the band member. When one card is opened it automatically closes any previoud card that had been opened (image below shows
+and another image of the band member. When one card is opened it automatically closes any previous card that had been opened (image below shows
 card unopened (left) and opened (right).
 
 ![meet the monkees section image](assets/images/readme-meet-the-monkees-two.png)
@@ -131,7 +136,7 @@ card unopened (left) and opened (right).
 * Audio And Video Files
 
 This page allows the user to listen to some of The Monkees greatest hits via Audio Files. The files are laid out using Bootstraps list group and
-each file comes wth controls to play, pause, download (depending on browser) and adjust sound. A link is included to allows users to purchase 
+each file comes wth controls to play, pause, download (depending on browser) and adjust sound. A link is included which allows users to purchase 
 the album that these audio files come from.
 
 The three music video files included are similar to the band.html and use Bootstraps responsive <iframe> embedded videos.
@@ -149,7 +154,7 @@ included. These albums covers are responsive and react to individual device size
 
 * Event Booking Form
 
-This page allows the user to contact The Monkees with regard to making a future booking for events such as birthdays anniversaries and larger 
+This page allows the user to contact The Monkees with regard to making a future booking for events such as birthdays, anniversaries and larger 
 events such music venues and festivals. It makes use of Bootstraps form-group and uses labels and inputs (including select fields and radio
 buttons). The image below show the event booking form in both mobile (left) and desktop view (right).
 
@@ -160,8 +165,8 @@ buttons). The image below show the event booking form in both mobile (left) and 
 This website was tested at every single stage to ensure that it responded correctly to every device type. Media Queries
 were used where required to ensure that every aspect responded as desired with regard to image size, layout, positioning etc.
 
-It was tested using various browsers i.e. Google Chrome, Microsoft Edge and Mozilla Firefox utilising available tools such as 
-Chromes dev tools and Firefox's Responsive design mode. The site could then be inspected as it was being worked on and any changes being made to the site were constantly
+It was tested using various browsers i.e. Google Chrome, Microsoft Edge and Mozilla Firefox etc. utilising available tools such as 
+Chrome's dev tools and Firefox's Responsive design mode. The site could then be inspected as it was being worked on and any changes being made to the site were constantly
 being monitored to see how the different browsers and screen sizes would be affected. Using all these available tools I was able to
 ensure my website functioned correctly and is responsive as possible on all device sizes. The image below shows how this responsive design
 mode tool was utilised to show the website on various device types and brands.
@@ -173,22 +178,4 @@ standards set by the W3 Consortium.
 
 ### Author:
 
-Shane Coen (This project is part of Code Institute's Online mentored Software Developement course and was completed in March 2018).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Shane Coen (This project is part of Code Institute's Online mentored Software Development  course and was completed in March 2018).

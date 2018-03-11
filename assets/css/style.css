@@ -93,7 +93,7 @@ a:link {
 }
 
 .body-home-page {
-    background-image: url("../../assets/images/monkees1967.png");
+    background-image: url("../../assets/images/The-Monkees-background-image.png");
     background-size: cover;
     background-position:center center;
     background-repeat: no-repeat;
@@ -134,7 +134,6 @@ a:link {
 }
 
 .home-top-section-wrapper {
-    width: 90%;
     margin: 0 auto;
     border-bottom: 1px solid #ffffff;
 }
@@ -195,11 +194,11 @@ a:link {
 .latest-news-wrapper {
     margin: 0;
     padding: 0;
+    padding-bottom: 30px;
     border-bottom: 1px solid #ffffff;
 }
 
 .latest-news-home-div {
-    background-color: transparent;
     float: left;
 }
 
@@ -208,12 +207,14 @@ a:link {
 }
 
 .latest-news-slider-div {
-    border-radius: 20px;
     max-width: 100%;
     margin: 0 auto;
     margin-top: 30px;
     margin-bottom: 40px;
     padding: 0;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 20px;
+    border: 2px solid #b2b2b2;
 }
 
 .latest-news-fifty-years-one {
@@ -291,7 +292,7 @@ a:link {
 
 .the-band-article-one-wrapper {
     padding-bottom: 20px;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #b2b2b2;
     margin: 0 auto;
 }
 
@@ -300,7 +301,7 @@ a:link {
 }
 
 .meet-band-wrapper {
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #b2b2b2;
 }
 
 .band-one-div {
@@ -309,14 +310,21 @@ a:link {
     padding: 0;
 }
 
+.band-slider-text {
+    margin-top: 130px;
+    text-align: center;
+}
+
 .band-content-wrapper {
     margin: 0 auto;
 }
 
 .tv-series-div-1 {
-    background-color: transparent;
     margin-top: 0;
-    padding: 0;
+    padding: 40px 20px 40px 20px;
+    border: 2px solid #b2b2b2;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.6);
 }
 
 .tv-series-div-2 {
@@ -418,20 +426,29 @@ a:link {
     display: none;
 }
 
-.carousel-indicators li {
+.carousel-indicators-edit li {
     background-color: #800000;
+}
+
+.carousel-indicators-edit .active {
+    background-color: #b2b2b2;
 }
 
 .carousel-control-next-icon-edit {
     background-image: url("../../assets/images/arrow-right.png");
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
 }
 
 .carousel-control-prev-icon-edit {
     background-image: url("../../assets/images/arrow-left.png");
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+.carousel-control-next-edit,
+.carousel-control-prev-edit {
+    width: 50px;
 }
 
 .card-header-edit {
@@ -766,7 +783,7 @@ audio {
 
 .contact-text {
     font-family: "Roboto", sans-serif;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 22px;
     margin: 0;
     margin-bottom: 30px;
@@ -873,6 +890,7 @@ audio {
 
 .footer-button-edit:hover {
     background-color: #800000;
+    color: #ffffff;
     border: 1px solid #800000;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -898,6 +916,10 @@ audio {
       margin-left: 20px;
       margin-right: 20px; 
     }
+    
+     .tv-series-div-2 {
+        margin-top: 0;
+    }
 }
 
 @media (min-width: 480px) {
@@ -911,6 +933,15 @@ audio {
     
     .meet-the-band-pic-div {
     display: block;
+    }
+    
+    .latest-news-slider-div {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    .tv-series-div-1 {
+        padding: 40px 40px 40px 40px;
     }
 }
 

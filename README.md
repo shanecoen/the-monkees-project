@@ -154,8 +154,7 @@ laid out using Bootstraps list group and each file comes wth controls to play, p
 (depending on browser) and adjust sound. A link is included which allows users to purchase 
 the album that these audio files come from.
 
-The three music video files included are similar to the band.html and use Bootstraps responsive 
-<iframe> embedded videos.
+The three music video files included are similar to the band.html and use Bootstraps responsive <iframe> embedded videos.
 
 
 ![music audio files image](assets/images/readme-music-audio.png)

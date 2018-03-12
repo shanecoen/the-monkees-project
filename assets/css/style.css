@@ -91,17 +91,6 @@ a:link {
     margin-top: 50px;
     margin-left: 10px;
 }
-
-.body-home-page {
-    background-image: url("../../assets/images/The-Monkees-background-image.png");
-    background-size: cover;
-    background-position:center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-}
     
 .call-out-button-edit1 {
     background-color: #800000;
@@ -135,7 +124,7 @@ a:link {
 
 .home-top-section-wrapper {
     margin: 0 auto;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #b2b2b2;
 }
 
 .fifty-years-div {
@@ -195,7 +184,7 @@ a:link {
     margin: 0;
     padding: 0;
     padding-bottom: 30px;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #b2b2b2;
 }
 
 .latest-news-home-div {
@@ -279,15 +268,9 @@ a:link {
     border-bottom: 1px solid #ffffff;
 }
 
-.band-body {
-    background-image: url("../../assets/images/band-body-background.png");
-    background-size: cover;
-    background-position:center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+.band-body,
+.body-home-page {
+    background-color: rgba(178,178,178,0.1);
 }
 
 .the-band-article-one-wrapper {
@@ -942,6 +925,33 @@ audio {
     
     .tv-series-div-1 {
         padding: 40px 40px 40px 40px;
+    }
+    
+    .band-body {
+    background-image: url("../../assets/images/band-body-background.png");
+    background-size: cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    }
+    
+    .body-home-page {
+    background-image: url("../../assets/images/The-Monkees-background-image.png");
+    background-size: cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    }
+    
+    .home-top-section-wrapper,
+    .latest-news-wrapper {
+    border-bottom: 1px solid #ffffff;
     }
 }
 

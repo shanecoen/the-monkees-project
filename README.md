@@ -1,12 +1,8 @@
 # The Monkees Website
 
-### Who is this website for?
-
 The Monkees are a 1960’s rock band who have recently celebrated their 50 year anniversary. 
 They are world renowned musicians who have vast experience of performing at live events throughout 
 the globe and have built up huge legions of fans during their time at the top.
-
-### What needs does it fulfil?
 
 This website has been created to help publicise the band further and to help showcase their music. 
 Its primary target is current and potential fans of “The Monkees” and is a place where they can 
@@ -26,15 +22,14 @@ Some of its key features include:
 *	The Monkees can be contacted about booking for future events via the Event Booking page,
 *	The website is responsive and can be easily accessed and viewed on any device i.e. mobile, tablet or desktop.
 
-### Where can the website be viewed?
-
-This website is hosted by GitHub pages and can be viewed at: 
-[https://shanecoen.github.io/the-monkees-project/index.html](https://shanecoen.github.io/the-monkees-project/index.html)
-
 ## The Website:
 
 ![responsive website image](assets/images/readme-the-monkees-responsive.png)
 
+### Deployment:
+
+This website is hosted by GitHub pages and can be viewed at: 
+[https://shanecoen.github.io/the-monkees-project/index.html](https://shanecoen.github.io/the-monkees-project/index.html)
 
 ### Responsively Designed:
 
@@ -42,9 +37,6 @@ This website has been designed Mobile first as priority and huge importance has 
 it functions responsively on all devices be it mobile, tablet and desktop screen sizes.
 
 The bootstrap framework was used extensively to give the website a highly responsive layout.
-
-The website was tested at every single stage to ensure that it responded correctly to every device type. Media Queries
-were used where required to ensure that every aspect responded as desired with regard to image size, layout, positioning etc.
 
 ### UX Design:
 
@@ -162,8 +154,10 @@ buttons). The image below show the event booking form in both mobile (left) and 
 
 ### Testing:
 
-This website was tested at every single stage to ensure that it responded correctly to every device type. Media Queries
-were used where required to ensure that every aspect responded as desired with regard to image size, layout, positioning etc.
+This website was tested at every single stage to ensure that it responded correctly to every device type. Some of the device
+types used for testing included; Lenovo IdeaPad 100 laptop, Samsung Galaxy 7 Inch Tablet, Amazon Fire 6 Inch Tablet, Apple iPad 9.7 Inch,
+and a number of mobile phone brands such as Apple iPhone, samsung and Huawei. Media Queries were used where required to ensure that 
+every aspect responded as desired with regard to image size, layout, positioning etc.
 
 It was tested using various browsers i.e. Google Chrome, Microsoft Edge and Mozilla Firefox etc. utilising available tools such as 
 Chrome's dev tools and Firefox's Responsive design mode. The site could then be inspected as it was being worked on and any changes being made to the site were constantly
